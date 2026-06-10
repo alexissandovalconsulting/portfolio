@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Alexis Sandoval | Marketing Portfolio</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f8f9fa;
+    color:#333;
+    line-height:1.6;
+}
+
+header{
+    background:#111827;
+    color:white;
+    padding:20px 10%;
+    position:sticky;
+    top:0;
+}
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+    gap:25px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+.hero{
+    min-height:80vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:50px 10%;
+}
+
+.hero-content h1{
+    font-size:3rem;
+    margin-bottom:10px;
+}
+
+.hero-content h2{
+    color:#2563eb;
+    margin-bottom:20px;
+}
+
+.hero-content p{
+    max-width:700px;
+    margin:auto;
+    margin-bottom:25px;
+}
+
+.btn{
+    display:inline-block;
+    background:#2563eb;
+    color:white;
+    padding:12px 24px;
+    text-decoration:none;
+    border-radius:6px;
+}
+
+section{
+    padding:80px 10%;
+}
+
+.section-title{
+    text-align:center;
+    margin-bottom:40px;
+    font-size:2rem;
+}
+
+.about{
+    background:white;
+}
+
+.projects{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:white;
+    padding:25px;
+    border-radius:10px;
+    box-shadow:0 2px 10px rgba(0,0,0,.1);
+}
+
+.card h3{
+    margin-bottom:10px;
+}
+
+.resume{
+    background:white;
+}
+
+.resume ul{
+    max-width:700px;
+    margin:auto;
+}
+
+.certifications{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+
+.cert{
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    text-align:center;
+    box-shadow:0 2px 10px rgba(0,0,0,.1);
+}
+
+.contact{
+    background:white;
+}
+
+form{
+    max-width:600px;
+    margin:auto;
+}
+
+input, textarea{
+    width:100%;
+    padding:12px;
+    margin-bottom:15px;
+}
+
+button{
+    background:#2563eb;
+    color:white;
+    border:none;
+    padding:12px 24px;
+    cursor:pointer;
+}
+
+footer{
+    text-align:center;
+    background:#111827;
+    color:white;
+    padding:20px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<nav>
+<h2>Alexis Sandoval</h2>
+
+<ul>
+<li><a href="#about">About</a></li>
+<li><a href="#portfolio">Portfolio</a></li>
+<li><a href="#resume">Resume</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</nav>
+</header>
+
+<section class="hero">
+<div class="hero-content">
+
+<h1>Alexis Sandoval</h1>
+
+<h2>Marketing Student | Automotive Sales Professional</h2>
+
+<p>
+I combine marketing, sales, and technology to create customer-focused
+strategies that drive business growth. Currently pursuing a bachelor's
+degree in Marketing Management while working in automotive sales.
+</p>
+
+<a href="#portfolio" class="btn">View Portfolio</a>
+
+</div>
+</section>
+
+<section id="about" class="about">
+
+<h2 class="section-title">About Me</h2>
+
+<p>
+I earned associate degrees in Web Programming and Business Administration
+and am currently pursuing a bachelor's degree in Marketing Management.
+My experience in automotive sales has given me hands-on knowledge of
+customer behavior, lead generation, CRM systems, and business growth.
+</p>
+
+</section>
+
+<section id="portfolio">
+
+<h2 class="section-title">Portfolio Projects</h2>
+
+<div class="projects">
+
+<div class="card">
+<h3>Subaru Forester Hybrid Campaign</h3>
+<p>
+Integrated marketing campaign including customer personas,
+social media strategy, email marketing, and KPI tracking.
+</p>
+</div>
+
+<div class="card">
+<h3>Marketing Analytics Dashboard</h3>
+<p>
+Dashboard project tracking website traffic,
+lead sources, conversions, and ROI.
+</p>
+</div>
+
+<div class="card">
+<h3>Dealership Website Redesign</h3>
+<p>
+Website redesign focused on improving lead generation
+and customer experience.
+</p>
+</div>
+
+<div class="card">
+<h3>Social Media Growth Campaign</h3>
+<p>
+30-day content calendar and engagement strategy
+for brand growth.
+</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="resume" class="resume">
+
+<h2 class="section-title">Resume Highlights</h2>
+
+<ul>
+<li>A.S. Web Programming</li>
+<li>A.S. Business Administration</li>
+<li>B.S. Marketing Management (In Progress)</li>
+<li>Automotive Sales Professional</li>
+<li>CRM & Customer Relationship Management</li>
+<li>Digital Marketing & Analytics</li>
+</ul>
+
+</section>
+
+<section>
+
+<h2 class="section-title">Certifications</h2>
+
+<div class="certifications">
+
+<div class="cert">
+<h3>Google Analytics</h3>
+<p>In Progress</p>
+</div>
+
+<div class="cert">
+<h3>Google Ads</h3>
+<p>Planned</p>
+</div>
+
+<div class="cert">
+<h3>HubSpot Digital Marketing</h3>
+<p>Planned</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="contact" class="contact">
+
+<h2 class="section-title">Contact Me</h2>
+
+<form>
+
+<input type="text" placeholder="Your Name">
+
+<input type="email" placeholder="Your Email">
+
+<textarea rows="5" placeholder="Message"></textarea>
+
+<button type="submit">Send Message</button>
+
+</form>
+
+</section>
+
+<footer>
+<p>© 2026 Alexis Sandoval Portfolio</p>
+</footer>
+
+</body>
+</html>
